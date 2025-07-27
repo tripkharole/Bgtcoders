@@ -1,0 +1,13 @@
+.ph_table{
+    text-align:left;
+
+ }  
+ table, th, td {
+  border:1px solid black;
+  font-size: 15px;
+  color:#fff;
+  background:#0a5071;
+}
+table,tr,th,a{
+    color:white;
+}

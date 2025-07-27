@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*styles for the container*/
+.container{
+    max-width: 100%;
+    margin: 0 ;
+    padding:20px;
+}
+/*styles for the container*/
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/*styles for the h1 element*/
+h1{
+    margin:0;
+    font-size: 36px;
+}
+/*styles for the "Add New User"link*/
+.add{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(17, 25, 38);
+    color:#fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.btn{
+    display:inline-block;
+    padding: 8px 16px;
+    background-color: rgb(17, 25, 38);
+    color:#fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.alert-success{
+    background-color: #D4EDDA;
+    border-radius: #C3E6CB;
+    color:#155724;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.table{ 
+    width:100%;
+    border-collapse: collapse;
+    margin-right:20px;
+    float:left;
+}
+.table thead th{
+    background-color:  rgb(17, 25, 38);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.table tbody td{
+    border-bottom: 1px solid #ddd;
+
+}
